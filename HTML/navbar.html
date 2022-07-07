@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Logo</h4>
+        </div>
+    
+        <ul class="nav-link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Restaurant</a></li>
+            <li><a href="#">Sign up</a></li>
+            <li><a href="#">Sign in</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, rerum expedita assumenda suscipit dolorum saepe pariatur culpa. Maiores ipsum aliquam ducimus saepe possimus veniam maxime explicabo fuga minus quae, soluta officiis dignissimos eaque vel cum? Cumque harum architecto optio quas voluptate, aperiam, repudiandae exercitationem alias tenetur hic incidunt ducimus a illo corrupti minus sapiente sunt deserunt? Tenetur fugiat facere molestias aperiam minus provident ducimus ex praesentium hic commodi quam, unde non velit eligendi amet sit expedita esse maxime tempora illo veritatis eum impedit mollitia doloremque. Explicabo nobis minima corrupti, aperiam repudiandae earum sapiente magnam quos omnis? Cupiditate magni dicta repellat temporibus. Reiciendis pariatur, voluptas molestiae odio laborum ex ad, iusto, beatae fuga sapiente similique. Soluta quibusdam pariatur quo magni dolorem qui quis enim expedita alias dicta, placeat amet non modi reprehenderit ratione error eaque a esse optio dolorum, minus fugiat nulla. Magni dicta commodi veniam ea quidem! Harum veritatis sunt quas optio quasi reprehenderit voluptatum placeat id saepe beatae soluta laborum dolore est ullam provident in eveniet cumque, itaque aspernatur sed inventore eaque pariatur quidem. Iste delectus numquam, error rem distinctio hic id nihil aliquam nesciunt autem dolores eligendi adipisci sequi magnam doloremque eaque quas et. Accusantium temporibus architecto voluptate.
+    </div>
+    <script>
+        const navSlide=()=>{
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.nav-link');
+           
+
+            burger.addEventListener('click',()=>{
+                nav.classList.toggle('nav-active');
+            });
+  
+        }
+        navSlide();
+    </script>
+</body>
+</html>

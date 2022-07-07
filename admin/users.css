@@ -1,0 +1,17 @@
+body{
+    font-family:'Roboto Condensed', sans-serif;
+    margin:0;
+}
+section{
+    max-width: calc(100% - 300px);
+    margin: 50px auto;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 5px black;
+}
+table{
+    width: 100%;
+}
+td {
+   
+    text-align:center;
+}

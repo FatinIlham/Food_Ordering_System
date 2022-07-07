@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="add-store.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Add New Restaurant</h1>
+        <div class="inputfield">
+            <input type="text" name="name" placeholder="Restaurant Name">
+        </div>
+        <div class="inputfield">
+            <input type="email" name="email" placeholder="Email address">
+        </div>
+        <div class="inputfield">
+            <input type="text" name="phone" placeholder="Contact Number">
+        </div>
+        <div class="inputfield">
+            <input type="url" name="url" placeholder="Website url">
+        </div>
+        <div class="inputfield">
+            <select name="opening_time" id="">
+                <option value="">--Select Your Hours--</option>
+                <option value="9am">9am</option>
+                <option value="10am">10am</option>
+                <option value="11am">11am</option>
+                <option value="12am">12am</option>
+            </select>
+        </div>
+        <div class="inputfield">
+            <select name="closing_time" id="">
+                <option value="">--Select Your Hours--</option>
+                <option value="8pm">8pm</option>
+                <option value="9pm">9pm</option>
+                <option value="10pm">10pm</option>
+                <option value="11pm">11pm</option>
+            </select>
+        </div>
+        <div class="inputfield">
+            <select name="opening_days" id="">
+                <option value="">--Select Your Days--</option>
+                <option value="mon-tue">mon-tue</option>
+                <option value="mon-wed">mon-wed</option>
+                <option value="mon-thu">mon-thu</option>
+                <option value="mon-fri">mon-fri</option>
+                <option value="mon-fri">mon-sat</option>
+                <option value="24hr-x7">11pm</option>
+            </select>
+        </div>
+        <div class="inputfield">
+            <input type="file" name="image">
+        </div>
+        <div class="inputfield1">
+            <textarea name="address" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <input type="submit" name="add" value="Add">
+    </form>
+</body>
+</html>

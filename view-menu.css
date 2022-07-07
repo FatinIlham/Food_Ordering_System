@@ -1,0 +1,88 @@
+body{
+    font-family:'Roboto Condensed', sans-serif;
+    margin:0;
+}
+section{
+    width: calc(100% - 270px);
+    margin: 50px auto;
+ 
+}
+section>h1{
+    font-size: 40px;
+    text-align: center;
+}
+.res-info {
+    display: flex;
+}
+.res-info >img{
+    width: 45%;
+}
+.res-details{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 25px;
+    background-color: rgb(238, 237, 237);
+    
+}
+.res-details h3{
+    font-size: 30px;
+}
+.res-details p{
+    font-size: 20px;
+}
+.food-row{
+    width: calc(100%);
+    margin: 100px auto;
+    display: flex;
+    justify-content:flex-start;
+    align-items: stretch;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.food-card{
+    width: 300px;
+    box-shadow: 0px 0px 5px black;
+  
+    
+}
+.food-details{
+    padding: 0 10px;
+}
+.food-image img{
+    width: 100%;
+}
+.fdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.food-name{
+    
+    font-size: 19px;
+    padding:20px 10px 0px 10px;
+}
+.food-price{
+ 
+    padding: 20px 10px 0px 10px;
+}
+.food-about{
+    
+    padding:20px 10px 10px 10px;
+}
+.food-card form input[type=submit]{
+
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 7px 15px;
+    border: none;
+    background-color: #FF3D00;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}

@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+}
+.row{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    width:calc(100% - 400px);
+    margin:0 auto;
+
+}
+.card{
+    margin-bottom:40px;
+    width:300px;
+    box-shadow:0px 0px 10px #616161;
+    position:relative;
+    min-width:300px;
+
+}
+
+.card-img{
+    height:200px;
+
+}
+.card img{
+    width:100%;
+    
+    margin-bottom:0px;
+
+}
+.card-bottom{
+    background-color:#FAFAFA;
+    padding:10px 15px;
+    height:250px;
+    box-sizing:border-box; 
+    transform:translateY(-10px);
+
+}
+.card-bottom .food-name{
+    font-size:25px;
+    margin-bottom:10px;
+    height:calc(100% / 5);
+
+}
+.card-bottom .food-describetion{
+    font-size:17px;
+    margin-bottom:15px;
+    overflow:hidden;
+    height:calc(100% / 3);
+
+}
+.card-bottom .Price{
+    margin-bottom:15px;
+    font-weight:bold;
+}
+.card-bottom input[type=submit]{
+    padding:10px 20px;
+    background-color:#FF3D00;
+    border-radius:35px;
+    border:none;
+    color:white;
+    transition:all 0.5s;
+    text-transform:uppercase;
+
+}
+.card-bottom input[type=submit]:hover{
+    transform: translateY(-5px);
+}
+.love{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
